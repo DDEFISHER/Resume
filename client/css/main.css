@@ -5,3 +5,35 @@
     width: 100%;
     z-index: 100;
 }
+.divLinkHome {
+  cursor: pointer; 
+  margin-top: 10px;
+  color: white;
+  position: relative;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+.divLink {
+  cursor: pointer; 
+  margin-top: 10px;
+  color: white;
+  margin-left: 10px;
+  position: relative;
+}
+.divLink:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  width: 0;
+  height: 10px;
+  background-color: #98004a;
+  content: "";
+  transition: width 0.4s;
+}
+.divLink:hover {
+  color: #98004a;
+}
+.divLink:hover:after {
+  width: 100%;
+}
