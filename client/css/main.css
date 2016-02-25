@@ -1,5 +1,13 @@
+body {
+    color: #EEEFF7;
+    background-color: #31353D;
+}
+p {
+    color: #EEEFF7;
+    background-color: #31353D;
+}
 #topbar {
-    background: #1a1a1a none repeat scroll 0 0;
+    background: #1C1D21 none repeat scroll 0 0;
     position: fixed;
     top: 0;
     width: 100%;
@@ -8,7 +16,8 @@
 .divLinkHome {
   cursor: pointer; 
   margin-top: 10px;
-  color: white;
+  background-color: #1C1D21;
+  color: #445878;
   position: relative;
   padding-bottom: 10px;
   font-weight: bold;
@@ -16,7 +25,8 @@
 .divLink {
   cursor: pointer; 
   margin-top: 10px;
-  color: white;
+  color: #EEEFF7;
+  background-color: #1C1D21;
   margin-left: 10px;
   position: relative;
 }
@@ -27,12 +37,12 @@
   bottom: -10px;
   width: 0;
   height: 10px;
-  background-color: #98004a;
+  background-color: #92CDCF;
   content: "";
   transition: width 0.4s;
 }
 .divLink:hover {
-  color: #98004a;
+  color: #EEEFF7;
 }
 .divLink:hover:after {
   width: 100%;
