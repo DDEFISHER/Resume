@@ -31,6 +31,7 @@
             });
         </script>
 
+        <script type="text/javascript" src="js/main.js"></script>
         <!-- load Ink's javascript files -->
         <script type="text/javascript" src="js/holder.js"></script>
         <script type="text/javascript" src="js/ink-all.min.js"></script>
@@ -51,15 +52,15 @@
             <ul class="menu horizontal push-right">
 
                 <li>
-                    <div class="divLink" onclick="func1();">ABOUT ME</div>
+                    <div class="divLink" onclick="scroll_id('about_me');">ABOUT ME</div>
                 </li>
                 
                 <li>
-                    <div class="divLink" onclick="func1();">PROJECTS</div>
+                    <div class="divLink" onclick="scroll_id('projects');">PROJECTS</div>
                 </li>
                 
                 <li>
-                    <div class="divLink" onclick="func1();">RESUME</div>
+                    <div class="divLink" onclick="scroll_id('resume');">RESUME</div>
                 </li>
                 
                 
@@ -67,7 +68,26 @@
             </ul>
         </nav>
     </div>
-        
 
+    <div class="ink-grid">
+      <div class="column-group" id="about_me">
+        <div class="all-100">
+          <h1 class="lightblue">Hello, my name is Daniel</h1>
+          <p>  I love to program.  I have explored areas such as server side web development, client side web development, compilers, embedded systems, and 2D games. You can view some projects I have done and look at my resume by using the arrow keys to navigate or by selecting the links with your mouse.</p>
+        </div>
+      </div>
+      <div class="column-group" id="projects">
+        <div class="all-100">
+          <h1 class="lightblue">Hello, my name is Daniel</h1>
+          <p>  I love to program.  I have explored areas such as server side web development, client side web development, compilers, embedded systems, and 2D games. You can view some projects I have done and look at my resume by using the arrow keys to navigate or by selecting the links with your mouse.</p>
+        </div>
+      </div>
+      <div class="column-group" id="resume">
+        <div class="all-100">
+          <h1 class="lightblue">Hello, my name is Daniel</h1>
+          <p>  I love to program.  I have explored areas such as server side web development, client side web development, compilers, embedded systems, and 2D games. You can view some projects I have done and look at my resume by using the arrow keys to navigate or by selecting the links with your mouse.</p>
+        </div>
+      </div>
+    </div>
     </body>
 </html>

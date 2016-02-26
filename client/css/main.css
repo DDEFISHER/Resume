@@ -1,8 +1,6 @@
-body {
-    color: #EEEFF7;
-    background-color: #31353D;
-}
-p {
+html, body {
+    height: 100%;
+    margin:0px;
     color: #EEEFF7;
     background-color: #31353D;
 }
@@ -46,4 +44,27 @@ p {
 }
 .divLink:hover:after {
   width: 100%;
+}
+.lightblue {
+  color: #92CDCF;
+}
+#about_me {
+  display: block;
+  padding-top: 200px;
+  text-align: center;
+  color: #92CDCF;
+  height: 100vh;
+}
+#projects {
+  padding-top: 200px;
+  text-align: center;
+  color: #92CDCF;
+  background-color: black;
+  height: 100vh;
+}
+#resume {
+  padding-top: 200px;
+  text-align: center;
+  color: #92CDCF;
+  height: 100vh;
 }
