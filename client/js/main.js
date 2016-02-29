@@ -1,6 +1,7 @@
 var ele_ids = ['about_me','projects','resume'];
 var index = 0;
 
+//TODO add index numbers to links
 function scroll_id(eleID) {
 
    var e = document.getElementById(eleID);
