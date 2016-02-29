@@ -52,14 +52,13 @@ html, body {
   display: block;
   padding-top: 200px;
   text-align: center;
-  color: #92CDCF;
+  color: #EEEFF7;
   height: 100vh;
 }
 #projects {
   padding-top: 200px;
   text-align: center;
   color: #92CDCF;
-  background-color: black;
   height: 100vh;
 }
 #resume {
