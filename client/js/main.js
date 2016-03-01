@@ -1,8 +1,9 @@
 var ele_ids = ['about_me','projects','resume'];
 var index = 0;
 
-//TODO add index numbers to links
-function scroll_id(eleID) {
+function scroll_id(eleID,new_index) {
+
+   index = new_index;
 
    var e = document.getElementById(eleID);
    if (!!e && e.scrollIntoView) {
@@ -18,7 +19,7 @@ document.onkeypress = function (e) {
 
         if(index < 2) {
             index++;
-            scroll_id(ele_ids[index]);
+            scroll_id(ele_ids[index],index);
         }
 
         return;
@@ -28,7 +29,7 @@ document.onkeypress = function (e) {
 
         if(index > 0) {
             index--;
-            scroll_id(ele_ids[index]);
+            scroll_id(ele_ids[index],index);
         }
 
         return;
